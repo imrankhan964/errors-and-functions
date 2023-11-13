@@ -13,7 +13,7 @@ This Solidity smart contract, named LibraryContract, is designed to manage a sim
 
 2. **Book Checkout:**
    - Users can borrow books by calling `checkOutBook`.
-   - Requires library membership using `require`; reverts with a message if not a member.
+   - Requires library membership using `require`, reverts with a message if not a member.
    - Tracks individual and total checked-out books.
    - Emits `BookCheckedOut` event on successful book checkout.
    - Enforces a maximum limit of 3 checked-out books per user with an `assert` statement.
@@ -47,11 +47,11 @@ This Solidity smart contract, named LibraryContract, is designed to manage a sim
 
 ## Usage Guidelines:
 
-1. Joining the Library:
+ ## 1. Joining the Library:
 
 Call joinLibrary to become a library member.
 
-2. Checking Out Books:
+## 2. Checking Out Books:
 
 Use checkOutBook to borrow books.
 
@@ -59,6 +59,6 @@ Ensure library membership before attempting checkout.
 
 Maximum limit: 3 books.
 
-3. Inquiring about Membership:
+## 3. Inquiring about Membership:
 
 Call getMembershipStatus to check membership status.
