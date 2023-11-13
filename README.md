@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Solidity smart contract, named LibraryContract, is designed to manage a simple library membership system where users can join the library, check out books, and inquire about their membership status. The contract employs the Ethereum blockchain to ensure transparency and security in library operations.
+This Solidity smart contract, named LibraryContract, is designed to manage a simple library membership system where users can join the library, check out books, and inquire about their membership status. 
 
 ## Features
 
@@ -62,3 +62,8 @@ Maximum limit: 3 books.
 ## 3. Inquiring about Membership:
 
 Call getMembershipStatus to check membership status.
+
+## Author
+Imran khan
+
+imrankhan924738@gmail.com
