@@ -47,11 +47,11 @@ This Solidity smart contract, named LibraryContract, is designed to manage a sim
 
 ## Usage Guidelines:
 
- ## 1. Joining the Library:
+ ** 1. Joining the Library: **
 
 Call joinLibrary to become a library member.
 
-## 2. Checking Out Books:
+ ** 2. Checking Out Books:**
 
 Use checkOutBook to borrow books.
 
@@ -59,11 +59,12 @@ Ensure library membership before attempting checkout.
 
 Maximum limit: 3 books.
 
-## 3. Inquiring about Membership:
+** 3. Inquiring about Membership:**
 
 Call getMembershipStatus to check membership status.
 
 ## Author
+
 Imran khan
 
 imrankhan924738@gmail.com
